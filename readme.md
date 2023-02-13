@@ -1,3 +1,8 @@
+# PokerNet
+
+Beginning of an AI poker player. <br>
+For now, it's just a poker game. <br>
+You can play against five very simple bots, or let the bots play against themselves. <br>
 
 ### Conda
 

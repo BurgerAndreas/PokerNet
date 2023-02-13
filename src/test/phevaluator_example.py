@@ -13,7 +13,7 @@ suit_map = {
 
 
 # from https://github.com/HenryRLee/PokerHandEvaluator/blob/master/python/examples.py
-def example1():
+def phe_example1():
   p1 = evaluate_cards("9c", "4c", "4s", "9d", "4h", "Qc", "6c")
   p2 = evaluate_cards("9c", "4c", "4s", "9d", "4h", "2c", "9h")
 
@@ -22,7 +22,7 @@ def example1():
   print(f"The rank of the hand in player 2 is {p2}") # 236
 
 
-def example2():
+def phe_example2():
   # card = mapped_rank * 4 + mapped_suit 
   a = 7 * 4 + 0  # 9c
   b = 2 * 4 + 0  # 4c
@@ -53,7 +53,7 @@ def card_to_id(card):
 def cards_to_ids(cards):
   return [card_to_id(card) for card in cards]
 
-def example3():
+def phe_example3():
   community_cards = ["9c", "4c", "4s", "9d", "4h"]
   player1_cards = ["Qc", "6c"]
   player2_cards = ["2c", "9h"]
